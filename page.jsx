@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import { register } from "@/Api/Api";
+import { getlocals } from "@/Api/Api";
+
 export default function HomePage() {
 
     const [username, setUsername] = useState("");

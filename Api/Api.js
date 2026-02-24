@@ -44,3 +44,8 @@ export async function obtenerProducto(id) {
 
   return res.json();
 }
+
+export{
+  register,
+  login,
+}
